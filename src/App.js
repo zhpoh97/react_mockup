@@ -1,25 +1,29 @@
-import logo from './logo.svg';
+import React, {Component} from 'react';
+
+import 'bootstrap/dist/css/bootstrap.css';
+
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import TopMenu from './components/TopMenu';
+import SideMenu from './components/SideMenu';
+import MainContent from './components/MainContent';
+
+class App extends Component{
+  render =() =>{
+    return (
+      <div className="App">
+        <header className="App-header">
+          <TopMenu></TopMenu>
+          <div class="container-fluid">
+            <div class="row vh-100">
+              <SideMenu></SideMenu>
+              <MainContent></MainContent>
+            </div>
+          </div>
+        </header>
+      </div>
+    );
+  }
 }
 
 export default App;

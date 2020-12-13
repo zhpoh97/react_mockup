@@ -1,0 +1,30 @@
+.main{
+  padding-top: 4em;
+  position: relative;
+  width: 80%;
+  margin-left: 0;
+}
+
+@media screen and (max-width: 992px) {
+  .main{
+      padding-left: 0;
+      width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .main{
+    padding-top: 0;
+    margin-left: auto;
+  }
+}
+
+.main{
+  a{
+    font-size: 16px;
+  }
+}
+
+.main h1{
+  padding-bottom: 0.5em;
+}

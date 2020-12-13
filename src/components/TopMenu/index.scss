@@ -1,0 +1,24 @@
+.top-bar{
+  padding: 0.5em 2em 0.5em 2em;
+  background-color: transparent;
+}
+
+.btn{
+  &.btn-light{
+    background-color: #ffffff;
+    border-color: #a1a1a11f;
+    border-width: 2px;
+  }
+}
+
+.d-flex-text{
+  font-size: small;
+  padding: 0 0.5em;
+  color: #b9b9b9;
+} 
+
+a{
+  & i{
+    padding: 0 0.9em;
+  }
+} 

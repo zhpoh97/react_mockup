@@ -1,0 +1,72 @@
+.card{
+  margin-top: 2em;
+  margin-left: 0;
+  border-style: solid;
+  border-color: rgba(192, 192, 192, 0.3);
+  border-width: 1px;
+  border-radius: 0.5em;
+}
+
+.card-img{
+  padding: 0;
+}
+
+.card-info{
+  padding: 2em 0 0 0 ;
+  background-color: #ffffff;
+  border-radius: 0.5em;
+}
+
+.card-info h5{
+  padding: 1em 0;
+  font-size: 24px;
+}
+
+.card-info h6{
+  padding: 2em 0 1em 1em;
+}
+
+.card-info-status{
+  padding-left: 2em;
+}
+
+.card-info-btn{
+  padding: 0;
+}
+
+.card-info-btn button{
+  background-color: #F5F6F7;
+  border-style: solid;
+  border-color: rgba(192, 192, 192, 0.3);
+  border-width: 1px;
+  padding: 1em;
+}
+
+.card-info-room-text {
+  margin: 0 2em 1.5em 2em;
+  font-weight: 600;
+}
+
+.card-info-room-details{
+  margin-bottom: 0;
+}
+
+.card-info-status div{
+  padding: 0.3em 0;
+}
+
+.grey{
+  color: #8A8F9C;
+}
+
+.inprogress{
+  color: #7C60FF;
+}
+
+.icon {
+  padding-right: 1em;
+}
+
+div{
+  font-size: 16px;
+}
